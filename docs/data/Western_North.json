@@ -1,0 +1,1700 @@
+[
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Asawinso",
+    "Facility":" Sefwi Asawinso Government Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Asawinso",
+    "Facility":"Aboagyekrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Paboase",
+    "Facility":"Aboanidua CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Anhwiaso (Western)",
+    "Facility":"Aboduabo CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Paboase",
+    "Facility":"Aboduam CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Kwesi Nkrumah",
+    "Facility":"Abosi CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Abrabra",
+    "Facility":"Abrabra CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Juaboso",
+    "Facility":"Abrokofe CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Bawakrom",
+    "Facility":"Aburonahia CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Asemnyinakrom",
+    "Facility":"Achiase (Bia East) CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Achimfo (Enchi)",
+    "Facility":"Achimfo Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Achimfo (Enchi)",
+    "Facility":"Achimfo-Adjeikrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Nsawora",
+    "Facility":"Ackaakrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Adabokrom",
+    "Facility":"Adabokrom Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Chirano",
+    "Facility":"Adiembra CHPS (Bekwai)"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Yawmatwa",
+    "Facility":"Adiepena No.1 CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"New Gyasikrom",
+    "Facility":"Adjei Krom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Adjuom",
+    "Facility":"Adjuom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Akontombra Nkwanta",
+    "Facility":"Adonikrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Anhwiaso (Western)",
+    "Facility":"Adupri CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Juaboso",
+    "Facility":"Adwumamu CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Suiano",
+    "Facility":"Afere CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Jato Africa",
+    "Facility":"Africa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Sayerano",
+    "Facility":"Agyemandiem CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Bodi",
+    "Facility":"Ahibenso Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Massakrom",
+    "Facility":"Ahimakrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Datano",
+    "Facility":"Ahokwa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Paboase",
+    "Facility":"Ahwiaa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Chirano",
+    "Facility":"Akaaso CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bekwai (Western)",
+    "Facility":"Akaasu CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Akaatiso",
+    "Facility":"Akaatiso CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Akontombra",
+    "Facility":"Akontombra District Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Akontombra Nkwanta",
+    "Facility":"Akontombra Nkwanta Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Suaman",
+    "Sub-district":"Akoskrom",
+    "Facility":"Akosekrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Paboase",
+    "Facility":"Akoti-Etwebo CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Nsawora",
+    "Facility":"Akpafu CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Anyinabrim (Sefwi-Wiawso)",
+    "Facility":"Akurafu CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Proso- Kofikrom",
+    "Facility":"Akwasi Addaekrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Asawinso",
+    "Facility":"Alex and Thess Maternity Home"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Kaase",
+    "Facility":"Alhajikrom PHC Clinic"
+  },
+  {
+    "Region":"Western North",
+    "District":"Suaman",
+    "Sub-district":"Dadieso",
+    "Facility":"Ama Dansoa Maternity Home"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Asemnyinakrom",
+    "Facility":"Amadu Nkwanta CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Wiawso",
+    "Facility":"Amafie CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Kaase",
+    "Facility":"Amangoase CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Aquai Allah",
+    "Facility":"Amanshia CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Kwesi Nkrumah",
+    "Facility":"Amoashed CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Amoaya",
+    "Facility":"Amoaya Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bekwai (Western)",
+    "Facility":"Ampenkrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Yawmatwa",
+    "Facility":"Angela Memorial Catholic Clinic, Yamatwa"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Juaboso",
+    "Facility":"Anglican Clinic, Sefwi-Bonzain"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Wiawso",
+    "Facility":"Anhwiam CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Anhwiaso (Western)",
+    "Facility":"Anhwiaso (bibiani Anhwiaso Bekwai) Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Anhwiaso (Western)",
+    "Facility":"Anhwiaso Community Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Aquai Allah",
+    "Facility":"Ankaase CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Proso- Kofikrom",
+    "Facility":"Annas Maternity Home"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Juaboso",
+    "Facility":"Antobia CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Suaman",
+    "Sub-district":"Dadieso",
+    "Facility":"Antokrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Akontombra Nkwanta",
+    "Facility":"Anwiafutu CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Anyinabrim (Sefwi-Wiawso)",
+    "Facility":"Anyinabrim (sefwi Wiawso) Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Enchi",
+    "Facility":"Aowin Community Clinic"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Datano",
+    "Facility":"Apemtimadi Bowobra CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Yiwabra",
+    "Facility":"Appiakrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Nsawora",
+    "Facility":"Apprutu CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Suaman",
+    "Sub-district":"Akoskrom",
+    "Facility":"Aprukusu CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Aquai Allah",
+    "Facility":"Aquay Allah Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Arhinful",
+    "Facility":"Arhinful CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Mempeasem",
+    "Facility":"Asafo-Adjei CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Yiwabra",
+    "Facility":"Asantekrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Asantekrom",
+    "Facility":"Asantekrom Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Awaso",
+    "Facility":"Asawinso CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Boinso",
+    "Facility":"Asemkrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Asemnyinakrom",
+    "Facility":"Asemnyinakrom Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Awaso",
+    "Facility":"Asempanaye CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Asempaneye",
+    "Facility":"Asempaneye CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Arhinful",
+    "Facility":"Asoredamho CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Jato Africa",
+    "Facility":"Asoredanho CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Enchi",
+    "Facility":"Asuaklo CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Mempeasem",
+    "Facility":"Asuontaa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Awaso",
+    "Facility":"Atronsu CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Kramokrom",
+    "Facility":"Attakrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Arhinful",
+    "Facility":"Atuakrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Aquai Allah",
+    "Facility":"Awuakrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Achimfo (Enchi)",
+    "Facility":"Banaso CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bibiani",
+    "Facility":"Bassengele CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Bawakrom",
+    "Facility":"Bawakrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Asafo (Sefwi-Wiawso)",
+    "Facility":"Bechiwa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Sayerano",
+    "Facility":"Benchema CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Suiano",
+    "Facility":"Benumsuo CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Suiano",
+    "Facility":"Bepoase (Bodi) CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Amoaya",
+    "Facility":"Besease CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bibiani",
+    "Facility":"Bethleham CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bibiani",
+    "Facility":"Bibiani District Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bibiani",
+    "Facility":"Bibiani RCH CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Bodi",
+    "Facility":"Bishop Anglonby Memorial Clinic, Sefwi-Bodi"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Anyinabrim (Sefwi-Wiawso)",
+    "Facility":"Boako CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Bodi",
+    "Facility":"Bodi CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Boinso",
+    "Facility":"Boinso Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Juaboso",
+    "Facility":"Boinzan CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Amoaya",
+    "Facility":"Bokabo CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Akontombra",
+    "Facility":"Bokaso CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Sewum",
+    "Facility":"Bongoso CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Bonsu Nkwanta",
+    "Facility":"Bonsu Nkwanta (Juaboso) Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Asantekrom",
+    "Facility":"Bopa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Wiawso",
+    "Facility":"Bosomoiso CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Kwesi Nkrumah",
+    "Facility":"Brebre Clinic"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Asempaneye",
+    "Facility":"Brekrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Bonsu Nkwanta",
+    "Facility":"Caiphas CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Camp-15",
+    "Facility":"Camp 15 CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Aquai Allah",
+    "Facility":"Camp 4 CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Adabokrom",
+    "Facility":"Camp Junction CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Mempeasem",
+    "Facility":"Cashierkrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Anhwiaso (Western)",
+    "Facility":"Chine CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Chirano",
+    "Facility":"Chirano Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Kramokrom",
+    "Facility":"Chorichori CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Essam",
+    "Facility":"Cocoa Clinic Debiso"
+  },
+  {
+    "Region":"Western North",
+    "District":"Suaman",
+    "Sub-district":"Dadieso",
+    "Facility":"Dadieso District Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bibiani",
+    "Facility":"Daks Medical Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Amoaya",
+    "Facility":"Datano CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Datano",
+    "Facility":"Datano Health Center"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Anhwiaso (Western)",
+    "Facility":"Debiso CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Bodi",
+    "Facility":"Denchemuosue CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Adjuom",
+    "Facility":"Desueano CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bibiani",
+    "Facility":"Divine Love Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Datano",
+    "Facility":"Domeabra CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Anhwiaso (Western)",
+    "Facility":"Dominebo CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Akontombra",
+    "Facility":"Edewuakrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Proso- Kofikrom",
+    "Facility":"Eluibo CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Enchi",
+    "Facility":"Enchi Government Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Yiwabra",
+    "Facility":"Enchi Jomoro CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Akontombra",
+    "Facility":"Enningkrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Enchi",
+    "Facility":"Episcopal Health Centre(Clinic), Nyankamam-Enchi"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Essam",
+    "Facility":"Essam Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Essam",
+    "Facility":"Essam gov. Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Asempaneye",
+    "Facility":"Eteso CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Asemnyinakrom",
+    "Facility":"Eye Awurade (bia) Maternity Home"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Essam",
+    "Facility":"Florence (bia) Maternity Home"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Camp-15",
+    "Facility":"Fosukrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Paboase",
+    "Facility":"Futa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Awaso",
+    "Facility":"Gbc Awaso Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Akaatiso",
+    "Facility":"Gina (bia) Maternity Home"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bekwai (Western)",
+    "Facility":"Green Shield Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Datano",
+    "Facility":"Greenshield Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Proso- Kofikrom",
+    "Facility":"Gyampokrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bekwai (Western)",
+    "Facility":"Humjibre CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Proso- Kofikrom",
+    "Facility":"Hwemehaa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Proso- Kofikrom",
+    "Facility":"JJ Nkwanta CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Jato Africa",
+    "Facility":"Jatokrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Boinso",
+    "Facility":"Jema CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Kwesi Nkrumah",
+    "Facility":"Jericho CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Juaboso",
+    "Facility":"Juaboso Government Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Juaboso",
+    "Facility":"Juaboso Nkwanta CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Kaase",
+    "Facility":"Kaase Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Suiano",
+    "Facility":"Kama CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Bodi",
+    "Facility":"Kanchiabo CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Sayerano",
+    "Facility":"Kantankrubo CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Suaman",
+    "Sub-district":"Karlo",
+    "Facility":"Karlo Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Chirano",
+    "Facility":"Kinross Clinic"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Arhinful",
+    "Facility":"Kofi Yeboah CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Kwesi Nkrumah",
+    "Facility":"Kofi-Kra CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Akaatiso",
+    "Facility":"Kofiekrom Aduana Clinic"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Asantekrom",
+    "Facility":"Kofikrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Oseikojokrom",
+    "Facility":"Kojoaba CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Oseikojokrom",
+    "Facility":"Kojoaba Clinic"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Nsawora",
+    "Facility":"Kojokrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"New Gyasikrom",
+    "Facility":"Kordjour CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Kramokrom",
+    "Facility":"Kramokrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Anhwiaso (Western)",
+    "Facility":"Kumkumso CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Suaman",
+    "Sub-district":"Dadieso",
+    "Facility":"Kwabena-Nartey CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Suaman",
+    "Sub-district":"Karlo",
+    "Facility":"Kwabenakrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Suiano",
+    "Facility":"Kwafukaa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Essam",
+    "Facility":"Kwametawiahkrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Adabokrom",
+    "Facility":"Kwasare CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Kwesi Nkrumah",
+    "Facility":"Kwasi Nkrumah CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Suiano",
+    "Facility":"Kwasiadukrom SDA Clinic"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Amoaya",
+    "Facility":"Kwasikrom (Bodi) Health Center"
+  },
+  {
+    "Region":"Western North",
+    "District":"Suaman",
+    "Sub-district":"Kwasuo",
+    "Facility":"Kwassuo CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Suaman",
+    "Sub-district":"Kwasuo",
+    "Facility":"Kwasuo-Bantama CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Juaboso",
+    "Facility":"Kwawkrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Jato Africa",
+    "Facility":"Kyensekokoo CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Aquai Allah",
+    "Facility":"Limankrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bibiani",
+    "Facility":"Lineso CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Akaatiso",
+    "Facility":"Lizzy's (bia) Maternity Home"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Asempaneye",
+    "Facility":"Mafia Health Center"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Jato Africa",
+    "Facility":"Maggie's (juabeso) Maternity Home"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Bodi",
+    "Facility":"Mammudu PHC (Clinic)"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Proso- Kofikrom",
+    "Facility":"Mansokrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Proso- Kofikrom",
+    "Facility":"Mantukwa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Bawakrom",
+    "Facility":"Manukrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Massakrom",
+    "Facility":"Massakrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Mempeasem",
+    "Facility":"Mempeasem Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Boinso",
+    "Facility":"Methodist Medical Centre, Kwawu"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Proso- Kofikrom",
+    "Facility":"Mintakrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Awaso",
+    "Facility":"Mmerewa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Akontombra Nkwanta",
+    "Facility":"Motosso CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Aquai Allah",
+    "Facility":"Musah Nkwanta CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"New Gyasikrom",
+    "Facility":"New Gyasikrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Papaase (Bia West)",
+    "Facility":"New Papaase CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Bonsu Nkwanta",
+    "Facility":"New Somanya (Juaboso) CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Enchi",
+    "Facility":"New-Yakasi CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Bodi",
+    "Facility":"Nhyira Maternity Home"
+  },
+  {
+    "Region":"Western North",
+    "District":"Suaman",
+    "Sub-district":"Dadieso",
+    "Facility":"Nipahiamoa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Awaso",
+    "Facility":"Nkatieso CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Abrabra",
+    "Facility":"Nkonya (Sefwi Wiawso) CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Awaso",
+    "Facility":"Nkronua CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Nsawora",
+    "Facility":"Nkwadum CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Sewum",
+    "Facility":"Nkwanta CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bibiani",
+    "Facility":"Noble Gold Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Nsawora",
+    "Facility":"Nsawora Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Yawmatwa",
+    "Facility":"Nsowakrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Datano",
+    "Facility":"Nsuonsua CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Chirano",
+    "Facility":"Ntakam CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Paboase",
+    "Facility":"Ntrentrenso CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Sayerano",
+    "Facility":"Nyame Ama Maternity Home"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Datano",
+    "Facility":"Nyamegyeso CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Sewum",
+    "Facility":"Nyamesa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Achimfo (Enchi)",
+    "Facility":"Nyaney Camp CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Asantekrom",
+    "Facility":"Obengkrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Bawakrom",
+    "Facility":"Obronikrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Suiano",
+    "Facility":"Odumtankwa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Akaatiso",
+    "Facility":"Oforikrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Wiawso",
+    "Facility":"Old Adiembra CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Enchi",
+    "Facility":"Old Yakasi CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Boinso",
+    "Facility":"Omanpe CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Mempeasem",
+    "Facility":"Osbert Maternity Home"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Oseikojokrom",
+    "Facility":"Osei kojokrom Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Camp-15",
+    "Facility":"Owuontaa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Paboase",
+    "Facility":"Paboase Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Amoaya",
+    "Facility":"Patakro CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Adabokrom",
+    "Facility":"Peace (bia) Maternity"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Paboase",
+    "Facility":"Penakrom-Nyamebekyere CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Boinso",
+    "Facility":"Pentecost Clinic, Enchi"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Yawmatwa",
+    "Facility":"Pillar 34 CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Bonsu Nkwanta",
+    "Facility":"Possible Health Service Clinic"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Essam",
+    "Facility":"Presbyterian Clinic, Kwamebikrom"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Adjuom",
+    "Facility":"Presbyterian Clinic, Papueso-Enchi"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Sewum",
+    "Facility":"Presbyterian Health Centre, Amonie"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Enchi",
+    "Facility":"Presbyterian Health Centre, Enchi"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Suiano",
+    "Facility":"Puakrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bibiani",
+    "Facility":"Reed Danos Medical Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Adabokrom",
+    "Facility":"Royal Christ Care Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Sayerano",
+    "Facility":"SDA Clinic, Sefwi Nkatieso"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Asantekrom",
+    "Facility":"SHED CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Proso- Kofikrom",
+    "Facility":"Santase CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Sayerano",
+    "Facility":"Sayerano CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia East",
+    "Sub-district":"Camp-15",
+    "Facility":"Sebebia CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bekwai (Western)",
+    "Facility":"Sefwi Ashiam CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bekwai (Western)",
+    "Facility":"Sefwi Bekwai Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Asempaneye",
+    "Facility":"Seniagyakrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Suaman",
+    "Sub-district":"Dadieso",
+    "Facility":"Seventh Day Adventist Clinic, Dadieso"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Proso- Kofikrom",
+    "Facility":"Seventh Day Adventist Clinic, Kofikrom "
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Amoaya",
+    "Facility":"Seventh Day Adventist Clinic, Sefwi Amoaya"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Anyinabrim (Sefwi-Wiawso)",
+    "Facility":"Seventh Day Adventist Clinic, Sefwi Punikrom"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Asawinso",
+    "Facility":"Seventh Day Adventist Hospital, Sefwi-Asawinso"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Sewum",
+    "Facility":"Sewum Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Oseikojokrom",
+    "Facility":"St Ann's Maternity"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Kwesi Nkrumah",
+    "Facility":"St Joseph (bia) Maternity Home"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Essam",
+    "Facility":"St Luke (Bia) Clinic"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Akontombra",
+    "Facility":"St. Jason Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Oseikojokrom",
+    "Facility":"St. John of God Catholic Annex Clinic, Oseikojokrom(Bia)"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Asafo (Sefwi-Wiawso)",
+    "Facility":"St. John of God Catholic Hospital, Sefwi Asafo"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Chirano",
+    "Facility":"St. Mark's Anglican Clinic, Subiri"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Abrabra",
+    "Facility":"Sui CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Suaman",
+    "Sub-district":"Akoskrom",
+    "Facility":"Sui-Aboi CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Suaman",
+    "Sub-district":"Karlo",
+    "Facility":"Sui-Ano CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bodi",
+    "Sub-district":"Suiano",
+    "Facility":"Suiano Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Bekwai (Western)",
+    "Facility":"Surano B CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Chirano",
+    "Facility":"Surano CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Akontombra",
+    "Facility":"TANOKROM CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Juaboso",
+    "Facility":"The Promise Of God Maternity Home"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Jato Africa",
+    "Facility":"Topman CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Kramokrom",
+    "Facility":"Tumuda CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Kramokrom",
+    "Facility":"Wansampo CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Wiawso",
+    "Facility":"Watico CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bibiani-Anhwiaso-Bekwai",
+    "Sub-district":"Anhwiaso (Western)",
+    "Facility":"Wenchi (bibiani Anhwiaso Bekwai) CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Wiawso",
+    "Sub-district":"Wiawso",
+    "Facility":"Wiawso Govt Hospital"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Akontombra",
+    "Facility":"Yamfo CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Sefwi-Akontombra",
+    "Sub-district":"Nsawora",
+    "Facility":"Yawkrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Yawmatwa",
+    "Facility":"Yawmatwa CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Essam",
+    "Facility":"Yawmwatwa Nkwanta CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Juaboso",
+    "Sub-district":"Bonsu Nkwanta",
+    "Facility":"Yeboah's Maternity Home"
+  },
+  {
+    "Region":"Western North",
+    "District":"Bia West",
+    "Sub-district":"Papaase (Bia West)",
+    "Facility":"Yesukrom CHPS"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Yiwabra",
+    "Facility":"Yiwabra Health Centre"
+  },
+  {
+    "Region":"Western North",
+    "District":"Aowin",
+    "Sub-district":"Yiwabra",
+    "Facility":"Yonkofa Health Centre"
+  }
+]
