@@ -4,12 +4,31 @@
   --secondary: #2ecc71;
   --accent: #fd7e14;
   --danger: #e74c3c;
+  --teal: #20c997;
+  --gold: #ffb400;
+  --gray: #6c757d;
+  --dark-bg: #222;
+  --dark-text: #fff;
 }
 
-body.theme-blue { --primary: #1976d2; --accent: #fd7e14; }
-body.theme-green { --primary: #2ecc71; --accent: #6c63ff; }
-body.theme-purple { --primary: #6f42c1; --accent: #f39c12; }
-body.theme-orange { --primary: #fd7e14; --accent: #17a2b8; }
+body.theme-blue { --primary: #1976d2; --accent: #fd7e14; background: #f8fafc; color: #222; }
+body.theme-green { --primary: #2ecc71; --accent: #6c63ff; background: #f8fafc; color: #222; }
+body.theme-purple { --primary: #6f42c1; --accent: #f39c12; background: #f8fafc; color: #222; }
+body.theme-orange { --primary: #fd7e14; --accent: #17a2b8; background: #f8fafc; color: #222; }
+body.theme-teal { --primary: #20c997; --accent: #1976d2; background: #f8fafc; color: #222; }
+body.theme-gold { --primary: #ffb400; --accent: #1976d2; background: #fffbe6; color: #222; }
+body.theme-gray { --primary: #6c757d; --accent: #fd7e14; background: #f4f4f4; color: #222; }
+body.theme-dark { --primary: #222; --accent: #ffb400; background: #222; color: #fff; }
+/* Theme swatch for dropdown */
+.theme-swatch {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1.5px solid #ccc;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
 
 body { background: var(--main-bg) !important; }
 
