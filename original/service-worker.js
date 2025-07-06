@@ -22,7 +22,6 @@ const urlsToCache = [
   "/pwa.js",
   "/reports.js",
   "/services.js",
-  "/utils.js",
   "/visits.js"
 ];
 

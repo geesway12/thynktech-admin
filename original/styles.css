@@ -1,0 +1,155 @@
+:root {
+  --main-bg: #f8fafc;
+  --primary: #1976d2;
+  --secondary: #2ecc71;
+  --accent: #fd7e14;
+  --danger: #e74c3c;
+  --teal: #20c997;
+  --gold: #ffb400;
+  --gray: #6c757d;
+  --dark-bg: #222;
+  --dark-text: #fff;
+}
+
+body.theme-blue { --primary: #1976d2; --accent: #fd7e14; background: #f8fafc; color: #222; }
+body.theme-green { --primary: #2ecc71; --accent: #6c63ff; background: #f8fafc; color: #222; }
+body.theme-purple { --primary: #6f42c1; --accent: #f39c12; background: #f8fafc; color: #222; }
+body.theme-orange { --primary: #fd7e14; --accent: #17a2b8; background: #f8fafc; color: #222; }
+body.theme-teal { --primary: #20c997; --accent: #1976d2; background: #f8fafc; color: #222; }
+body.theme-gold { --primary: #ffb400; --accent: #1976d2; background: #fffbe6; color: #222; }
+body.theme-gray { --primary: #6c757d; --accent: #fd7e14; background: #f4f4f4; color: #222; }
+body.theme-dark { --primary: #222; --accent: #ffb400; background: #222; color: #fff; }
+/* Theme swatch for dropdown */
+.theme-swatch {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1.5px solid #ccc;
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+body { background: var(--main-bg) !important; }
+
+/* Button theme colors */
+.btn-primary { background: var(--primary) !important; border: none !important; }
+.btn-accent { background: var(--accent) !important; border: none !important; color: #fff !important; }
+.btn-purple { background: #6f42c1 !important; border: none !important; color: #fff !important; }
+
+.card-header.bg-primary {
+  background: var(--primary) !important;
+}
+
+/* Modal override for vanilla modals */
+#userFormModal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(40,40,80,0.13);
+  display: none;
+  z-index: 10000;
+}
+#userFormModal.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#userFormModal .modal-content {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 24px rgba(0,0,0,0.18);
+  padding: 2em 1.5em 1em 1.5em;
+  min-width: 320px;
+  max-width: 98vw;
+}
+
+#userFormModal .btn {
+  min-width: 80px;
+}
+
+/* Add below your existing modal styles */
+.afya-modal-overlay {
+  position: fixed;
+  z-index: 1050;
+  left: 0; top: 0; width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.afya-modal-content {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+  max-width: 98vw;
+  min-width: 320px;
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Responsive container and card spacing */
+.container, .card {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  box-sizing: border-box;
+}
+
+/* Responsive tables */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Responsive modal */
+.afya-modal-content, #userFormModal .modal-content {
+  width: 100%;
+  max-width: 420px;
+  min-width: 0;
+  margin: 0 auto;
+  padding: 1.2rem 0.8rem;
+}
+
+/* Responsive form controls */
+@media (max-width: 600px) {
+  .container, .card {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+  .modal-content, .afya-modal-content {
+    padding: 1rem 0.5rem;
+  }
+  .form-control, .form-select, .btn, .list-group-item {
+    font-size: 1rem;
+  }
+  .d-flex {
+    flex-direction: column !important;
+    gap: 0.5rem;
+  }
+  .float-end, .text-end {
+    float: none !important;
+    text-align: left !important;
+    margin-top: 0.5rem;
+  }
+}
+
+/* Mobile menu button */
+.mobile-menu-btn {
+  display: none;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.3em 0.7em;
+  border-radius: 5px;
+  margin-right: 0.5em;
+}
+@media (max-width: 600px) {
+  .mobile-menu-btn {
+    display: inline-block;
+  }
+  .desktop-menu {
+    display: none !important;
+  }
+}
