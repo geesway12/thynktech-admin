@@ -50,9 +50,23 @@ self.addEventListener("activate", event => {
 self.addEventListener("fetch", event => {
   if (event.request.method !== "GET") return;
   event.respondWith(
-    caches.match(event.request).then(response =>
-      response || fetch(event.request)
-    ).catch(() => caches.match("/offline.html"))
+    caches.match(event.request).then(response => {
+      if (response) return response;
+      return fetch(event.request).then(networkResponse => {
+        // Only cache successful, basic (same-origin) responses
+        if (networkResponse && networkResponse.status === 200 && networkResponse.type === 'basic') {
+          const responseClone = networkResponse.clone();
+          caches.open(CACHE_NAME).then(cache => {
+            cache.put(event.request, responseClone);
+          });
+        }
+        return networkResponse;
+      });
+    }).catch(() => {
+      // Broadcast offline message to clients
+      broadcastMessage({ type: "offline" });
+      return caches.match("/offline.html");
+    })
   );
 });
 
@@ -61,6 +75,16 @@ self.addEventListener("message", event => {
   if (event.data === "checkForUpdate") {
     self.skipWaiting();
   }
+});
+
+// Notify clients when a new service worker is activated (update available)
+self.addEventListener("activate", event => {
+  event.waitUntil(
+    (async () => {
+      broadcastMessage({ type: "updateReady" });
+    })()
+  );
+  self.clients.claim();
 });
 // App install prompt (handled in app.js or UI)
 self.addEventListener("beforeinstallprompt", (e) => {
