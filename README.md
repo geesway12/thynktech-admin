@@ -1,37 +1,47 @@
-# TechThynk Admin Interface
+# ThynkTech
 
-This repository contains the production-ready files for TechThynk Admin Interface.
+**ThynkTech** is a modern, offline-first, modular health records & register app (PWA) for rural clinics and health posts.
 
-## Deployment
+## Features
 
-This repository is automatically updated from the main TechThynk repository.
+- IPS-compliant patient registration with smart ID
+- Digitize *any* paper register (form builder)
+- Custom fields and XLSForm-like data types (text, date, image, QR, etc.)
+- Role-based access (admin, nurse, records, clinician, custom)
+- Full visit logging and service records
+- CSV export for all records (patients, visits, services)
+- Data never leaves device/network unless exported
+- PWA: installable, works offline, secure local backup/restore
 
-### Last Updated
-2025-07-11T12:49:41.591Z
+## Getting Started
 
-### Source Repository
-[TechThynk Main Repository](https://github.com/geesway12/techthynk)
+1. **Clone/download** the repo
+2. Place all files in one folder, including:
+    - `index.html`
+    - `app.js`, `db.js`, `utils.js`, `formsUtils.js`, etc.
+    - `manifest.json`
+    - `icon-192.png`, `icon-512.png`
+3. Open `index.html` in your browser (or serve via a local web server)
+4. On first run, complete facility setup and create super admin
+5. Build registers/forms, users, and start data capture!
 
-## Usage
+## Development
 
-### Live Demo
-You can view this application at: [GitHub Pages](https://geesway12.github.io/thynktech-admin/)
+- Written in vanilla JS, Bootstrap 5, and PWA standards
+- Data is stored **locally** in browser (IndexedDB/localStorage)
+- **No server or external API required**
+- Ready for extension and integration with national systems
 
-### Local Development
-1. Clone this repository
-2. Serve the files using any static server:
-   ```bash
-   python3 -m http.server 8080
-   # or
-   npx serve .
-   ```
-3. Open http://localhost:8080 in your browser
+## Customization
 
-### Features
-- Progressive Web App (PWA) support
-- Offline functionality
-- Responsive design
-- Modern ES6+ JavaScript
+- Add or edit registers via the **Register Management** module (drag-and-drop, add custom fields)
+- Create new roles and assign specific module or register access
+- Use service worker for full offline support (add `service-worker.js`)
 
 ## License
-MIT License - see LICENSE file for details
+
+MIT — feel free to use and adapt for your facility or project!
+
+---
+
+*Built for the realities of rural Africa, by [Your Name/Team].*

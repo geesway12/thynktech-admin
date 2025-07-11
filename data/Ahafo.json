@@ -1,0 +1,674 @@
+[
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Derma",
+    "Facility":"147 Hospital "
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Sankore",
+    "Facility":"A1 Hospital"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Abuom",
+    "Facility":"Abuom Health Center"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi South",
+    "Sub-district":"Acherensua",
+    "Facility":"Acherensua Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Derma",
+    "Facility":"Adaa CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Adrobaa",
+    "Facility":"Adrobaa Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Mim",
+    "Facility":"Ahmadiyya Muslim Hospital"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Akrodie",
+    "Facility":"Akrodie Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Kasapin",
+    "Facility":"Ampenkro Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Derma",
+    "Facility":"Ankaase CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi South",
+    "Sub-district":"Nkaseim",
+    "Facility":"Apenemadi CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi South",
+    "Sub-district":"Nkaseim",
+    "Facility":"Apotoyowa CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Abuom",
+    "Facility":"Asarekrom CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Sankore",
+    "Facility":"Asawinso-Adwuman CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Kwapong",
+    "Facility":"Asibrem CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Goaso",
+    "Facility":"Asuadei CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Techimantia",
+    "Facility":"Asuboe CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Mim",
+    "Facility":"Asukese-Airport CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Asumura",
+    "Facility":"Asumura Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Kukuom",
+    "Facility":"Asunafo South District Hospital"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi North",
+    "Sub-district":"Kenyasi",
+    "Facility":"Asutifi North District Hospital"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Yamfo",
+    "Facility":"Atudurobesa CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi North",
+    "Sub-district":"Goamu-Koforidua",
+    "Facility":"Atwedie CHPS (Asutifi North)"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Ayomso",
+    "Facility":"Ayomso Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi North",
+    "Sub-district":"Kenyasi",
+    "Facility":"Banhart Hospital"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Bechem",
+    "Facility":"Bechem Government Hospital"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Mim",
+    "Facility":"Bediako CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Sankore",
+    "Facility":"Beposo CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi North",
+    "Sub-district":"Gambia",
+    "Facility":"Biaso CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Kasapin",
+    "Facility":"Bitre CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi South",
+    "Sub-district":"Dadiesoaba",
+    "Facility":"Blessed Family Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Bomaa",
+    "Facility":"Bomaa District Hospital"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Duayaw Nkwanta",
+    "Facility":"Bredi CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Bechem",
+    "Facility":"Breme CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Brosankro",
+    "Facility":"Brosankro Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi North",
+    "Sub-district":"Gyedu",
+    "Facility":"CROSS CARE CLINIC"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Sankore",
+    "Facility":"Camp No.1 CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Abuom",
+    "Facility":"Cocoa Clinic-1000 Acre CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Goaso",
+    "Facility":"Cross Care Clinic"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi South",
+    "Sub-district":"Dadiesoaba",
+    "Facility":"Dadiesoaba Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Goaso",
+    "Facility":"Dechem- Manhyia CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Derma",
+    "Facility":"Derma Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Kasapin",
+    "Facility":"Dominase CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Abuom",
+    "Facility":"Druwakrom CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Duayaw Nkwanta",
+    "Facility":"Duayaw Nkwanta Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Bomaa",
+    "Facility":"Dwenase (Tano North) CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Techimantia",
+    "Facility":"Dwomo CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi North",
+    "Sub-district":"Kenyasi",
+    "Facility":"Esther Maternity Home"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Ayomso",
+    "Facility":"Fawohoyeden Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi North",
+    "Sub-district":"Gambia",
+    "Facility":"Gambia Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi North",
+    "Sub-district":"Goamu-Koforidua",
+    "Facility":"Goamu Koforidua CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Goaso",
+    "Facility":"Goaso Municipal Hospital"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Duayaw Nkwanta",
+    "Facility":"Gyaakye CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Ayomso",
+    "Facility":"Gyasikrom - CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi North",
+    "Sub-district":"Gyedu",
+    "Facility":"Gyedu Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Kukuom",
+    "Facility":"Holy Spirit Catholic Clinic, Dantano"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi North",
+    "Sub-district":"Goamu-Koforidua",
+    "Facility":"Kensere CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Sankore",
+    "Facility":"Kokooso CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi North",
+    "Sub-district":"Gambia",
+    "Facility":"Krakyekrom CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi North",
+    "Sub-district":"Goamu-Koforidua",
+    "Facility":"Kramokrom CHPS (Asutifi North)"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Ayomso",
+    "Facility":"Kwaku Dua CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Kwapong",
+    "Facility":"Kwapong Health Center"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Bechem",
+    "Facility":"Kwasu CHPS Compund"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Asumura",
+    "Facility":"Manhyia-Awewoho CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Adrobaa",
+    "Facility":"Mankranho CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Bechem",
+    "Facility":"Mansin CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Bechem",
+    "Facility":"Mawaninso CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Tanoso",
+    "Facility":"Medisite Services Ghana(Ahafo North Clinic)"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi South",
+    "Sub-district":"Dadiesoaba",
+    "Facility":"Mehame CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Akrodie",
+    "Facility":"Mensahkrom CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Mim",
+    "Facility":"Mim Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Mim",
+    "Facility":"Mim Polyclinic"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Abuom",
+    "Facility":"Nakete CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Abuom",
+    "Facility":"New Sawereso CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Kukuom",
+    "Facility":"Nfrekrom-Kamirekrom CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi South",
+    "Sub-district":"Nkaseim",
+    "Facility":"Nkaseim Health Center"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi South",
+    "Sub-district":"Nkaseim",
+    "Facility":"Nkrankrom Chps"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Kukuom",
+    "Facility":"Noberkaw CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Derma",
+    "Facility":"Nsuta (Tano) CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi North",
+    "Sub-district":"Gambia",
+    "Facility":"Nsuta CHPS Zone"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Goaso",
+    "Facility":"Nyamebekyere CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Kwapong",
+    "Facility":"Oppongkrom CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Mim",
+    "Facility":"Our Lady of Perpetual Help Catholic Clinic, Mim"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Bechem",
+    "Facility":"PISGA ADVANCED MEDICAL CENTER"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Kwapong",
+    "Facility":"Pafo-Nkwanta CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Kasapin",
+    "Facility":"Pentecost Clinic, Kasapin"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Asumura",
+    "Facility":"Pomaakrom CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Duayaw Nkwanta",
+    "Facility":"Presbyterian Clinic, Buokrukruwa"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Sankore",
+    "Facility":"Sankore Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Kukuom",
+    "Facility":"Siana CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi South",
+    "Sub-district":"Dadiesoaba",
+    "Facility":"Sienchem CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi South",
+    "Sub-district":"Hwidiem",
+    "Facility":"St. Elizabeth Catholic Hospital, Hwidiem "
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Duayaw Nkwanta",
+    "Facility":"St. John Of God Catholic Hospital, Duayaw Nkwanta "
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Bechem",
+    "Facility":"St. Joseph's Catholic Clinic, Bechem"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi North",
+    "Sub-district":"Kenyasi",
+    "Facility":"St. Peter's Catholic Clinic, Donkorkrom"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Sankore",
+    "Facility":"Star of Hope Hospital"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Bomaa",
+    "Facility":"Subonpang CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Adrobaa",
+    "Facility":"Subreso CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Techimantia",
+    "Facility":"Subriso CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Adrobaa",
+    "Facility":"Sukuumu (Tano North) CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Yamfo",
+    "Facility":"Susuanso CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Yamfo",
+    "Facility":"Tanoano CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Bomaa",
+    "Facility":"Tanokrom CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Tanoso",
+    "Facility":"Tanoso (Tano North) Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano South",
+    "Sub-district":"Techimantia",
+    "Facility":"Techimantia Government Hospital"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Tanoso",
+    "Facility":"Terchire Health Centre"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Abuom",
+    "Facility":"Tetekwaw CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Akrodie",
+    "Facility":"Tweneboa CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo South",
+    "Sub-district":"Kukuom",
+    "Facility":"Victoria (Asunafo South) Maternity Home"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asunafo North",
+    "Sub-district":"Kasapin",
+    "Facility":"Wam CHPS"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Asutifi South",
+    "Sub-district":"Nkaseim",
+    "Facility":"Woramumuso CHPS Compound"
+  },
+  {
+    "Region":"Ahafo",
+    "District":"Tano North",
+    "Sub-district":"Yamfo",
+    "Facility":"Yamfo (Tano North) Health Centre"
+  }
+]
