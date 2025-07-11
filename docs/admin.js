@@ -310,7 +310,56 @@ export function renderAdminDashboard(root) {
       <img src="${f.image || 'logo.png'}" height="36" class="me-2" style="border-radius:8px;">
       <b>${f.name || ''}</b>
       <span class="ms-2 text-muted">${f.region || ''} / ${f.district || ''} / ${f.community || ''}</span>
-      ${adminUser ? `<span class='ms-auto'><a href="#profile" id="adminProfileLink" class="text-decoration-none text-dark"><i class='bi bi-person-circle'></i> <b>${adminUser}</b></a></span>` : ''}
+      <div class="ms-auto d-flex align-items-center gap-2">
+        <div class="theme-picker">
+          <button class="btn btn-outline-secondary btn-sm" id="adminThemePickerBtn" title="Change Theme">
+            <i class="bi bi-palette me-1"></i><span class="d-none d-md-inline">Theme</span>
+          </button>
+          <div class="theme-dropdown" id="adminThemeDropdown">
+            <div class="theme-option" data-theme="blue">
+              <span class="theme-swatch" style="background: #1976d2;"></span>
+              Ocean Blue
+            </div>
+            <div class="theme-option" data-theme="green">
+              <span class="theme-swatch" style="background: #2e7d32;"></span>
+              Forest Green
+            </div>
+            <div class="theme-option" data-theme="purple">
+              <span class="theme-swatch" style="background: #7b1fa2;"></span>
+              Royal Purple
+            </div>
+            <div class="theme-option" data-theme="orange">
+              <span class="theme-swatch" style="background: #f57c00;"></span>
+              Warm Orange
+            </div>
+            <div class="theme-option" data-theme="teal">
+              <span class="theme-swatch" style="background: #00695c;"></span>
+              Deep Teal
+            </div>
+            <div class="theme-option" data-theme="gold">
+              <span class="theme-swatch" style="background: #ff8f00;"></span>
+              Golden Yellow
+            </div>
+            <div class="theme-option" data-theme="gray">
+              <span class="theme-swatch" style="background: #424242;"></span>
+              Neutral Gray
+            </div>
+            <div class="theme-option" data-theme="mint">
+              <span class="theme-swatch" style="background: #00796b;"></span>
+              Fresh Mint
+            </div>
+            <div class="theme-option" data-theme="coral">
+              <span class="theme-swatch" style="background: #d84315;"></span>
+              Coral Red
+            </div>
+            <div class="theme-option" data-theme="dark">
+              <span class="theme-swatch" style="background: #121212; border-color: #666;"></span>
+              Dark Mode
+            </div>
+          </div>
+        </div>
+        ${adminUser ? `<a href="#profile" id="adminProfileLink" class="text-decoration-none text-dark"><i class='bi bi-person-circle'></i> <b>${adminUser}</b></a>` : ''}
+      </div>
     </div>`;
 
   setTimeout(() => {
@@ -334,6 +383,55 @@ export function renderAdminDashboard(root) {
           dashboardHash: '#admin-dashboard'
         });
       };
+    }
+
+    const themePickerBtn = document.getElementById('adminThemePickerBtn');
+    const themeDropdown = document.getElementById('adminThemeDropdown');
+    
+    if (themePickerBtn && themeDropdown) {
+
+      const savedTheme = localStorage.getItem('adminTheme') || 'blue';
+      applyAdminTheme(savedTheme);
+      updateAdminThemePickerUI(savedTheme);
+
+      themePickerBtn.onclick = (e) => {
+        e.stopPropagation();
+        const isVisible = themeDropdown.style.display === 'block';
+        themeDropdown.style.display = isVisible ? 'none' : 'block';
+      };
+
+      themeDropdown.querySelectorAll('.theme-option').forEach(option => {
+        option.onclick = (e) => {
+          e.stopPropagation();
+          const theme = option.dataset.theme;
+          applyAdminTheme(theme);
+          localStorage.setItem('adminTheme', theme);
+          updateAdminThemePickerUI(theme);
+          themeDropdown.style.display = 'none';
+        };
+      });
+
+      document.addEventListener('click', () => {
+        themeDropdown.style.display = 'none';
+      });
+    }
+
+    function applyAdminTheme(theme) {
+
+      document.body.classList.remove(
+        'theme-blue', 'theme-green', 'theme-purple', 'theme-orange', 
+        'theme-teal', 'theme-gold', 'theme-gray', 'theme-dark', 
+        'theme-mint', 'theme-coral'
+      );
+
+      document.body.classList.add(`theme-${theme}`);
+    }
+    
+    function updateAdminThemePickerUI(activeTheme) {
+      const themeOptions = document.querySelectorAll('#adminThemeDropdown .theme-option');
+      themeOptions.forEach(option => {
+        option.classList.toggle('active', option.dataset.theme === activeTheme);
+      });
     }
 
     const aptLink = root.querySelector('a[href="#appointments"]');
