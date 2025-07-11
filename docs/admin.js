@@ -387,7 +387,6 @@ export function renderAdminDashboard(root) {
               <a href="#register-mgmt" class="list-group-item list-group-item-action"><i class="bi bi-journals me-2"></i>Register Management</a>
               <a href="#appointments" class="list-group-item list-group-item-action"><i class="bi bi-calendar-event me-2"></i>Appointments</a>
               <a href="#reports" class="list-group-item list-group-item-action"><i class="bi bi-bar-chart me-2"></i>Reports</a>
-              <a href="#admin-export" class="list-group-item list-group-item-action"><i class="bi bi-cloud-arrow-up me-2"></i>Export Setup</a>
               ${ db.registers?.length
                   ? `<a href="#service-entry?reg=${encodeURIComponent(db.registers[0].name)}" class="list-group-item list-group-item-action"><i class="bi bi-clipboard-plus me-2"></i>Open Service Registers</a>`
                   : "" }
@@ -408,7 +407,7 @@ export function renderAdminDashboard(root) {
                   </button>
                 </div>
               </div>
-              <div class="row g-2">
+              <div class="row g-2 mb-2">
                 <div class="col-6">
                   <button class="btn btn-outline-secondary btn-sm w-100" id="backupBtn">
                     <i class="bi bi-shield-lock me-1"></i>Backup
@@ -419,6 +418,13 @@ export function renderAdminDashboard(root) {
                     <i class="bi bi-arrow-clockwise me-1"></i>Restore
                   </button>
                   <input type="file" id="restoreFile" accept=".json" style="display:none;">
+                </div>
+              </div>
+              <div class="row g-2">
+                <div class="col-12">
+                  <button class="btn btn-outline-info btn-sm w-100" id="setupExportBtn">
+                    <i class="bi bi-cloud-arrow-up me-1"></i>Export Setup
+                  </button>
                 </div>
               </div>
               <div id="backupMsg" class="mt-2"></div>
@@ -494,6 +500,46 @@ export function renderAdminDashboard(root) {
         <div class="d-flex justify-content-between">
           <button class="btn btn-success" id="executeCsvExport"><i class="bi bi-file-earmark-csv me-1"></i>Export CSV</button>
           <button class="btn btn-secondary" id="cancelCsvExport">Cancel</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Export Setup Modal -->
+    <div id="setupExportModal" class="modal-overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); z-index:1000;">
+      <div class="modal-content mx-auto mt-5" style="max-width:500px; background:white; border-radius:8px; padding:20px;">
+        <h5><i class="bi bi-cloud-arrow-up me-2"></i>Export Setup Configuration</h5>
+        <p class="text-muted small">Export system configuration including users, registers, and facility settings for deployment to other devices.</p>
+        
+        <div class="mb-3">
+          <label for="setupUsername" class="form-label">Username (optional)</label>
+          <input type="text" class="form-control" id="setupUsername" placeholder="Leave blank to export all users">
+          <div class="form-text">Enter a specific username to export only that user's configuration and assigned registers.</div>
+        </div>
+        
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" id="includeFacility" checked>
+          <label class="form-check-label" for="includeFacility">
+            Include facility settings (logo, name, location)
+          </label>
+        </div>
+        
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" id="includeRoles" checked>
+          <label class="form-check-label" for="includeRoles">
+            Include user roles and permissions
+          </label>
+        </div>
+        
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" id="includeCustomFields" checked>
+          <label class="form-check-label" for="includeCustomFields">
+            Include custom patient fields
+          </label>
+        </div>
+        
+        <div class="d-flex justify-content-between">
+          <button class="btn btn-primary" id="executeSetupExport"><i class="bi bi-cloud-arrow-up me-1"></i>Export Setup</button>
+          <button class="btn btn-secondary" id="cancelSetupExport">Cancel</button>
         </div>
       </div>
     </div>
@@ -751,38 +797,93 @@ export function renderAdminDashboard(root) {
   }
 
   const setupExportBtn = root.querySelector("#setupExportBtn");
-  if (setupExportBtn) {
+  const setupExportModal = root.querySelector("#setupExportModal");
+  
+  if (setupExportBtn && setupExportModal) {
     setupExportBtn.onclick = () => {
-      const username = prompt("Enter username to export (leave blank to export all users):");
-      let usersToExport = db.users;
-      let registersToExport = db.registers;
+      setupExportModal.style.display = "block";
+    };
+
+    root.querySelector("#cancelSetupExport")?.addEventListener("click", () => {
+      setupExportModal.style.display = "none";
+    });
+    
+    root.querySelector("#executeSetupExport")?.addEventListener("click", () => {
+      const username = root.querySelector("#setupUsername").value.trim();
+      const includeFacility = root.querySelector("#includeFacility").checked;
+      const includeRoles = root.querySelector("#includeRoles").checked;
+      const includeCustomFields = root.querySelector("#includeCustomFields").checked;
+      
+      let usersToExport = db.users || [];
+      let registersToExport = db.registers || [];
+      let serviceFormsToExport = db.servicesList || [];
+      
       if (username) {
-        const user = db.users.find(u => u.username === username.trim());
-        if (!user) return alert("User not found.");
+        const user = db.users?.find(u => u.username === username);
+        if (!user) {
+          alert("User not found.");
+          return;
+        }
         usersToExport = [user];
 
         if (Array.isArray(user.assignedRegisters) && user.assignedRegisters.length) {
-          registersToExport = db.registers.filter(r => user.assignedRegisters.includes(r.name));
+          registersToExport = db.registers?.filter(r => user.assignedRegisters.includes(r.name)) || [];
+
+          serviceFormsToExport = db.servicesList?.filter(s => 
+            user.assignedRegisters.some(regName => 
+              s.registerName === regName || s.category === regName || s.formType === regName
+            )
+          ) || [];
         } else {
           registersToExport = [];
+          serviceFormsToExport = [];
         }
       }
+      
       const setupData = {
-        facility: db.facility, // ensures facility metadata (logo, name, etc) is included
-        settings: db.settings,
         users: usersToExport,
         registers: registersToExport,
-        roles: db.roles,
-        servicesList: db.servicesList,
-        customPatientFields: db.customPatientFields
+        servicesList: serviceFormsToExport,
+        settings: db.settings,
+
+        exportInfo: {
+          exportDate: new Date().toISOString(),
+          exportedBy: db.currentUser?.username || 'admin',
+          userScope: username || 'all_users',
+          assignedRegistersIncluded: username ? usersToExport[0]?.assignedRegisters || [] : 'all'
+        }
       };
+
+      if (includeFacility) {
+        setupData.facility = db.facility;
+      }
+      if (includeRoles) {
+        setupData.roles = db.roles;
+      }
+      if (includeCustomFields) {
+        setupData.customPatientFields = db.customPatientFields;
+      }
+      
       const blob = new Blob([JSON.stringify(setupData, null, 2)], { type: "application/json" });
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = "system-setup.json";
+      a.download = username ? `setup-${username}.json` : "system-setup.json";
       a.click();
       URL.revokeObjectURL(url);
+      
+      setupExportModal.style.display = "none";
+
+      root.querySelector("#setupUsername").value = "";
+      root.querySelector("#includeFacility").checked = true;
+      root.querySelector("#includeRoles").checked = true;
+      root.querySelector("#includeCustomFields").checked = true;
+    });
+
+    setupExportModal.onclick = (e) => {
+      if (e.target === setupExportModal) {
+        setupExportModal.style.display = "none";
+      }
     };
   }
 
