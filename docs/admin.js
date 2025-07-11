@@ -387,6 +387,7 @@ export function renderAdminDashboard(root) {
               <a href="#register-mgmt" class="list-group-item list-group-item-action"><i class="bi bi-journals me-2"></i>Register Management</a>
               <a href="#appointments" class="list-group-item list-group-item-action"><i class="bi bi-calendar-event me-2"></i>Appointments</a>
               <a href="#reports" class="list-group-item list-group-item-action"><i class="bi bi-bar-chart me-2"></i>Reports</a>
+              <a href="#admin-export" class="list-group-item list-group-item-action"><i class="bi bi-cloud-arrow-up me-2"></i>Export Setup</a>
               ${ db.registers?.length
                   ? `<a href="#service-entry?reg=${encodeURIComponent(db.registers[0].name)}" class="list-group-item list-group-item-action"><i class="bi bi-clipboard-plus me-2"></i>Open Service Registers</a>`
                   : "" }
