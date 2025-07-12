@@ -133,39 +133,219 @@ export function injectUserExportSection(root) {
   };
 }
 import { db, saveDb } from './db.js';
+import { wrapWithLayout } from './layout.js';
 
 export function renderLogin(container) {
-
-  container.innerHTML = `
-    <div class="container my-5">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card shadow">
-            <div class="card-header bg-primary text-white">
-              <h2 class="mb-0"><i class="bi bi-person-lock"></i> Thynktech Login</h2>
-            </div>
-            <div class="card-body">
-              <form id="loginForm" autocomplete="off">
-                <div class="mb-3">
-                  <input type="text" class="form-control" id="username" placeholder="Username" required autofocus>
-                </div>
-                <div class="mb-3">
-                  <input type="password" class="form-control" id="password" placeholder="Password" required>
-                </div>
-                <button type="submit" class="btn btn-primary w-100"><i class="bi bi-box-arrow-in-right"></i> Login</button>
-              </form>
-              <div id="importSetupContainer" class="mt-3">
-                <button id="importSetupBtn" class="btn btn-outline-secondary w-100 mb-2"><i class="bi bi-upload"></i> Import Setup</button>
-                <input type="file" id="importSetupFile" accept="application/json" style="display:none">
-                <div id="importSetupMsg" class="small mt-2 text-muted"></div>
-              </div>
-              <div id="loginError" class="alert alert-danger mt-3 d-none"></div>
-            </div>
+  const loginContent = `
+    <style>
+      .compact-login-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: calc(100vh - 200px);
+        padding: 2rem 1rem;
+      }
+      
+      .login-card-compact {
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(15px);
+        border-radius: 16px;
+        box-shadow: 0 15px 35px rgba(25, 118, 210, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 2rem 2rem 1.5rem;
+        width: 100%;
+        max-width: 380px;
+        position: relative;
+        animation: cardSlideIn 0.8s ease-out;
+      }
+      
+      @keyframes cardSlideIn {
+        0% { transform: translateY(30px); opacity: 0; }
+        100% { transform: translateY(0); opacity: 1; }
+      }
+      
+      .login-header-compact {
+        text-align: center;
+        margin-bottom: 1.5rem;
+      }
+      
+      .login-header-compact .logo-compact {
+        width: 40px;
+        height: 40px;
+        background: linear-gradient(135deg, #1976d2, #2196f3);
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 0.75rem;
+        box-shadow: 0 6px 12px rgba(25, 118, 210, 0.3);
+      }
+      
+      .login-header-compact h1 {
+        color: #1976d2;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: 0.25rem 0 0.15rem;
+      }
+      
+      .login-header-compact p {
+        color: #666;
+        font-size: 0.85rem;
+        margin: 0;
+      }
+      
+      .form-group-compact {
+        margin-bottom: 1.25rem;
+        position: relative;
+      }
+      
+      .form-group-compact label {
+        color: #1976d2;
+        font-weight: 600;
+        font-size: 0.85rem;
+        margin-bottom: 0.4rem;
+        display: block;
+      }
+      
+      .form-control-compact {
+        width: 100%;
+        padding: 0.75rem 0.875rem;
+        border: 2px solid #e3f2fd;
+        border-radius: 10px;
+        font-size: 0.95rem;
+        background: rgba(255, 255, 255, 0.9);
+        transition: all 0.3s ease;
+        box-sizing: border-box;
+      }
+      
+      .form-control-compact:focus {
+        outline: none;
+        border-color: #2196f3;
+        background: white;
+        box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.1);
+        transform: translateY(-1px);
+      }
+      
+      .btn-login-compact {
+        width: 100%;
+        padding: 0.75rem;
+        background: linear-gradient(135deg, #1976d2, #2196f3);
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: 600;
+        font-size: 0.95rem;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        margin-bottom: 1rem;
+      }
+      
+      .btn-login-compact:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(25, 118, 210, 0.4);
+      }
+      
+      .btn-login-compact:active {
+        transform: translateY(0);
+      }
+      
+      .import-section-compact {
+        border-top: 1px solid #e3f2fd;
+        padding-top: 1rem;
+        margin-top: 1rem;
+      }
+      
+      .btn-import-compact {
+        width: 100%;
+        padding: 0.6rem;
+        background: rgba(25, 118, 210, 0.1);
+        border: 2px solid #e3f2fd;
+        border-radius: 10px;
+        color: #1976d2;
+        font-weight: 500;
+        font-size: 0.85rem;
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+      
+      .btn-import-compact:hover {
+        background: rgba(25, 118, 210, 0.15);
+        border-color: #2196f3;
+      }
+      
+      .error-message-compact {
+        background: rgba(244, 67, 54, 0.1);
+        border: 1px solid rgba(244, 67, 54, 0.3);
+        color: #d32f2f;
+        padding: 0.6rem;
+        border-radius: 8px;
+        margin-top: 0.75rem;
+        font-size: 0.85rem;
+      }
+      
+      .success-message-compact {
+        background: rgba(76, 175, 80, 0.1);
+        border: 1px solid rgba(76, 175, 80, 0.3);
+        color: #388e3c;
+        padding: 0.6rem;
+        border-radius: 8px;
+        margin-top: 0.75rem;
+        font-size: 0.85rem;
+      }
+      
+      @media (max-width: 768px) {
+        .compact-login-container {
+          padding: 1rem;
+          min-height: calc(100vh - 180px);
+        }
+        .login-card-compact {
+          padding: 1.5rem 1.25rem;
+        }
+      }
+    </style>
+    
+    <div class="compact-login-container">
+      <div class="login-card-compact">
+        <div class="login-header-compact">
+          <div class="logo-compact">
+            <svg width="20" height="20" fill="white" viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
           </div>
+          <h1>🏥 TechThynk Login</h1>
+          <p>Sign in to start healthcare management</p>
         </div>
+        
+        <form id="loginForm" autocomplete="off">
+          <div class="form-group-compact">
+            <label for="username">Username</label>
+            <input type="text" class="form-control-compact" id="username" placeholder="Enter your username" required autofocus>
+          </div>
+          
+          <div class="form-group-compact">
+            <label for="password">Password</label>
+            <input type="password" class="form-control-compact" id="password" placeholder="Enter your password" required>
+          </div>
+          
+          <button type="submit" class="btn-login-compact">
+            Sign In
+          </button>
+        </form>
+        
+        <div class="import-section-compact">
+          <button id="importSetupBtn" class="btn-import-compact">
+            📁 Import Setup Configuration
+          </button>
+          <input type="file" id="importSetupFile" accept="application/json" style="display:none">
+          <div id="importSetupMsg" class="mt-2"></div>
+        </div>
+        
+        <div id="loginError" class="error-message-compact" style="display:none;"></div>
       </div>
     </div>
   `;
+
+  container.innerHTML = wrapWithLayout(loginContent, 'login', true, true);
 
   document.getElementById('loginForm').onsubmit = function(e) {
     e.preventDefault();
@@ -182,8 +362,12 @@ export function renderLogin(container) {
       }
     } else {
       const err = document.getElementById("loginError");
-      err.textContent = "Invalid username or password!";
-      err.classList.remove("d-none");
+      err.textContent = "Invalid username or password! Please check your credentials.";
+      err.style.display = "block";
+
+      setTimeout(() => {
+        err.style.display = "none";
+      }, 5000);
     }
   }
 
@@ -208,11 +392,9 @@ export function renderLogin(container) {
           db.servicesList = setup.servicesList || [];
           db.customPatientFields = setup.customPatientFields || [];
           saveDb();
-          msg.textContent = 'Setup imported! You can now log in.';
-          msg.className = 'small mt-2 text-success';
+          msg.innerHTML = '<div class="success-message-compact">✅ Setup imported successfully! You can now log in with your credentials.</div>';
         } catch (err) {
-          msg.textContent = 'Import failed: Invalid or corrupted setup file.';
-          msg.className = 'small mt-2 text-danger';
+          msg.innerHTML = '<div class="error-message-compact">❌ Import failed: Invalid or corrupted setup file.</div>';
         }
       };
       reader.readAsText(file);
