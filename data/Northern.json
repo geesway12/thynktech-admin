@@ -1,0 +1,2264 @@
+[
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Kamina",
+    "Facility":"6MRS Kamina Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Kamina",
+    "Facility":"ABF Mile Nine Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Choggu",
+    "Facility":"Abu Gausu Memorial Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Adibo",
+    "Facility":"Adibo Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Nyohini",
+    "Facility":"Adubliyili CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Bimbilla",
+    "Facility":"Alaafie Medical Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Tamale Central",
+    "Facility":"Ambariya CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Lungni",
+    "Facility":"Aprusaya CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Saboba",
+    "Facility":"Assemblies of God Hospital, Saboba"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Sangbaa",
+    "Facility":"Asulokura CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Lanja",
+    "Facility":"BAKPABA CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Sagnarigu",
+    "Facility":"Bagabaga College of Education CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Sagnarigu",
+    "Facility":"Bagabaga Health Center"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Zandua",
+    "Facility":"Bagli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Nyong",
+    "Facility":"Bagurugu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kumdi",
+    "Facility":"Bakamba CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Natagu",
+    "Facility":"Bakundiba CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Bilpeila",
+    "Facility":"Banvim CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Gushiegu",
+    "Sub-district":"Gushiegu",
+    "Facility":"Best Care Integrative Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Bilpeila",
+    "Facility":"Bilpela Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Bimbilla",
+    "Facility":"Bimbilla District Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Bimbilla",
+    "Facility":"Bimbilla RCH Clinic"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Bincheratanga",
+    "Facility":"Bincheratanga Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Sandua",
+    "Facility":"Binkonaloli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Gortanei",
+    "Facility":"Bitido\/Biyinkundo CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Kpabia",
+    "Facility":"Bofoyili CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Gupanerigu",
+    "Facility":"Bognayili CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Bimbilla",
+    "Facility":"Bolni CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Wapuli",
+    "Facility":"Borgban CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Gushiegu",
+    "Sub-district":"Gushiegu",
+    "Facility":"Borgu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Gbangbanpong",
+    "Facility":"Bukob CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Kandin",
+    "Facility":"Bulkpali CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Bumbong",
+    "Facility":"Bumbong Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Savelugu",
+    "Facility":"Bunglung CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kpandai",
+    "Facility":"Buya Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Lungni",
+    "Facility":"Chando CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Tamale Central",
+    "Facility":"Changli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Jimle",
+    "Facility":"Chegu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Gupanerigu",
+    "Facility":"Cheshegu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Gbullung",
+    "Facility":"Cheyoli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Kpendua",
+    "Facility":"Chirifoyili CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Choggu",
+    "Facility":"Choggu Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Yendi Central",
+    "Facility":"Church of Christ Mission Clinic, Yendi"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Taha",
+    "Facility":"Community Health Nurses Training School CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Kamina",
+    "Facility":"DIAMED Alternative Medicine Specialist Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Kpabia",
+    "Facility":"Dabogni CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Chamba",
+    "Facility":"Dakpam CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Dalun",
+    "Facility":"Dalun Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Gushiegu",
+    "Sub-district":"Gushiegu",
+    "Facility":"Damankung CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Kpalba",
+    "Facility":"Demon CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Diare",
+    "Facility":"Diare Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Tolon",
+    "Facility":"Dimabi CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Makayili",
+    "Facility":"Dipa CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Diare",
+    "Facility":"Dipale CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Bilpeila",
+    "Facility":"Dohini CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Sanguli",
+    "Facility":"Dondoni CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Kamina",
+    "Facility":"Dungu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Nyohini",
+    "Facility":"Dungu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Vitting",
+    "Facility":"Duunyin CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kabonwule",
+    "Facility":"EP Church Clinic, Blajai"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Yendi West",
+    "Facility":"Eastern Corridor Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Egambo",
+    "Facility":"Egambo CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kpandai",
+    "Facility":"Evangelical Church of Ghana Hospital, Kpandai"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Wapuli",
+    "Facility":"Evangelical Presbyterian Clinic, Wapuli"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Sanguli",
+    "Facility":"Fame Clinic, Tobali\/Tatindo"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kumdi",
+    "Facility":"Fame Health Centre, Ekumdi"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanton",
+    "Sub-district":"Nanton",
+    "Facility":"Fazihini CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Bilpeila",
+    "Facility":"Fooshegu CHPS (Presbyterian Clinic, Fooshegu)"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Choggu",
+    "Facility":"Friends Eye Center"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Taha",
+    "Facility":"Fuo CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Taha",
+    "Facility":"Fuo Community Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Gushiegu",
+    "Sub-district":"Kpatinga",
+    "Facility":"Gaa CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Gushiegu",
+    "Sub-district":"Galwei",
+    "Facility":"Galwei CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Yendi Central",
+    "Facility":"Gamanzei CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Bincheratanga",
+    "Facility":"Gambuga CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Napkpayili",
+    "Facility":"Garikpe CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Saboba",
+    "Facility":"Garimata CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Garizegu",
+    "Facility":"Garizegu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Taha",
+    "Facility":"Gbalahi CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Nyohini",
+    "Facility":"Gbambaya CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Gbangbanpong",
+    "Facility":"Gbangbanpong CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Lingbunga",
+    "Facility":"Gbanjongla CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Kamina",
+    "Facility":"Gbanyamni CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Wapuli",
+    "Facility":"Gbenja CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Taha",
+    "Facility":"Gbrima CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Tolon",
+    "Facility":"Gbrumani CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Nyankpala",
+    "Facility":"Gbulahagu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Gbullung",
+    "Facility":"Gbulung Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Gbungbaliga",
+    "Facility":"Gbungbaliga CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Adibo",
+    "Facility":"Gbungbaliga CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Gbungbaliga",
+    "Facility":"Gimam CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Gupanerigu",
+    "Facility":"Gingani CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Gbullung",
+    "Facility":"Gizaa CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Lungni",
+    "Facility":"Gmapeado CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Ngani",
+    "Facility":"Gnani Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Garizegu",
+    "Facility":"God Cares Community Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Gortanei",
+    "Facility":"Gor-Kukani CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Gortanei",
+    "Facility":"Gor-tanei CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Sabonjida",
+    "Facility":"Gulbi Quarters Clinic"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Kamina",
+    "Facility":"Gumani CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Tamale Central",
+    "Facility":"Gumbihini CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Napkpayili",
+    "Facility":"Gunguni CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanton",
+    "Sub-district":"Nanton",
+    "Facility":"Guntingli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Gupanerigu",
+    "Facility":"Gupanerigu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Choggu",
+    "Facility":"Gurugu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Gushiegu",
+    "Sub-district":"Gushiegu",
+    "Facility":"Gushiegu District Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Kamina",
+    "Facility":"Habana Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Sambuli",
+    "Facility":"Holy Cross Catholic Health Centre, Sambuli"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanton",
+    "Sub-district":"Nanton",
+    "Facility":"Jana CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanton",
+    "Sub-district":"Nanton",
+    "Facility":"Janjori-Kukuo Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Voggu",
+    "Facility":"Jegbo CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Sabonjida",
+    "Facility":"Jidandogo CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Jimle",
+    "Facility":"Jimle Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Gbungbaliga",
+    "Facility":"Jolli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Makayili",
+    "Facility":"Juanayili CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Makayili",
+    "Facility":"Juo CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Sabonjida",
+    "Facility":"Kabeso CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kabonwule",
+    "Facility":"Kabonwule CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Gbungbaliga",
+    "Facility":"Kajesu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Bilpeila",
+    "Facility":"Kakpagyili CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Taha",
+    "Facility":"Kalpohin Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Taha",
+    "Facility":"Kalpohin Medical Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Taha",
+    "Facility":"Kalpohine Estate CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Ngani",
+    "Facility":"Kamshegu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Kandin",
+    "Facility":"Kandin Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Egambo",
+    "Facility":"Kanjokra CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Moglaa",
+    "Facility":"Kanshegu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Kamina",
+    "Facility":"Kanvilli Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Kamina",
+    "Facility":"Kanvilli Tunaayilli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Karaga",
+    "Facility":"Karaga District Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Karaga",
+    "Facility":"Karaga Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Kasuliyili",
+    "Facility":"Kasuliyili Health Center"
+  },
+  {
+    "Region":"Northern",
+    "District":"Gushiegu",
+    "Sub-district":"Katani",
+    "Facility":"Katani CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kpandai",
+    "Facility":"Keteijeli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Kukpaligu",
+    "Facility":"Kinyorbido CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kitare",
+    "Facility":"Kitare Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Kamina",
+    "Facility":"Kogni Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kumdi",
+    "Facility":"Kojobone CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Zandua",
+    "Facility":"Kokpelga CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Vitting",
+    "Facility":"Kotingli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Wulensi",
+    "Facility":"Kotoya CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Kpabia",
+    "Facility":"Kpabia Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Sabonjida",
+    "Facility":"Kpajai No. 2 CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kpandai",
+    "Facility":"Kpakpa CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Kpalba",
+    "Facility":"Kpalba Health Center"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Kparbutabo",
+    "Facility":"Kpalbotabu Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Zabzugu",
+    "Facility":"Kpaligagbini CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Napkpayili",
+    "Facility":"Kpalsogu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Yendi West",
+    "Facility":"Kpalsonado CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Zandua",
+    "Facility":"Kpalsong CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kpandai",
+    "Facility":"Kpalumpo CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Gushiegu",
+    "Sub-district":"Galwei",
+    "Facility":"Kpanashei CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kpandai",
+    "Facility":"Kpandai District Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kpandai",
+    "Facility":"Kpandai Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Ngani",
+    "Facility":"Kpanjamba CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Bilpeila",
+    "Facility":"Kpanvo Clinic"
+  },
+  {
+    "Region":"Northern",
+    "District":"Gushiegu",
+    "Sub-district":"Kpatinga",
+    "Facility":"Kpatinga Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Saboba",
+    "Facility":"Kpegu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Pong Tamale",
+    "Facility":"Kpendua CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Kpendua",
+    "Facility":"Kpendua CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Garizegu",
+    "Facility":"Kpinging CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Kumbungu",
+    "Facility":"Kpullinyin CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Sambu",
+    "Facility":"Kpunkpuno CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Sangbaa",
+    "Facility":"Kubalim CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Wapuli",
+    "Facility":"Kujoni CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Kukpalgu",
+    "Facility":"Kukpalgu Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Kukpaligu",
+    "Facility":"Kukpaligu Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Napkpayili",
+    "Facility":"Kukuo CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Malshegu",
+    "Facility":"Kukuo Yapalsi CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Diare",
+    "Facility":"Kukuobila CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Taha",
+    "Facility":"Kulaa CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Pong Tamale",
+    "Facility":"Kuldanali CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Voggu",
+    "Facility":"Kuli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Bumbong",
+    "Facility":"Kulikpanga CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Kumbungu",
+    "Facility":"Kumbungu Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Komoayili",
+    "Facility":"Kumuayili CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Adibo",
+    "Facility":"Kuni CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Yendi East",
+    "Facility":"Kunkon CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Sambuli",
+    "Facility":"Kunkunzali CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Kpalba",
+    "Facility":"Kuntuli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Zabzugu",
+    "Facility":"Kuntumbiyili CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Komoayili",
+    "Facility":"Kupali CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Zabzugu",
+    "Facility":"Lagbani CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Vitting",
+    "Facility":"Lahagu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Pudua",
+    "Facility":"Lahito CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Kandin",
+    "Facility":"Lakpali CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Moglaa",
+    "Facility":"Langa CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Tong",
+    "Facility":"Langogu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Lanja",
+    "Facility":"Lanja Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Makayili",
+    "Facility":"Lepusi CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kpandai",
+    "Facility":"Lesseni CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Natagu",
+    "Facility":"Liful CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Wantugu",
+    "Facility":"Lingbun Gundaa CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Lingbunga",
+    "Facility":"Lingbunga CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Sabonjida",
+    "Facility":"Lonto Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Lungni",
+    "Facility":"Lungni Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Gbangbanpong",
+    "Facility":"Mabiido CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Makayili",
+    "Facility":"Makayili Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Malshegu",
+    "Facility":"Malshegu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Bumbong",
+    "Facility":"Malzeri Clinic"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Kamina",
+    "Facility":"Mansusu Medical Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Sambu",
+    "Facility":"Manyini CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Malshegu",
+    "Facility":"Marshal Medical Center"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Bimbilla",
+    "Facility":"Massaka CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Gupanerigu",
+    "Facility":"Mbanaayili Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Moglaa",
+    "Facility":"Moglaa Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Savelugu",
+    "Facility":"Mohifong CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Sabare",
+    "Facility":"Monegu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Komoayili",
+    "Facility":"Monkula CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Tamale Central",
+    "Facility":"Moshie Zongo Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Yendi West",
+    "Facility":"Motondo CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Sambuli",
+    "Facility":"N-nalog CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Choggu",
+    "Facility":"Naa Luro CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Pong Tamale",
+    "Facility":"Nabogu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Gushiegu",
+    "Sub-district":"Nabuli",
+    "Facility":"Nabuli Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Sambu",
+    "Facility":"Nadundo CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Kpendua",
+    "Facility":"Nagbligu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanton",
+    "Sub-district":"Tampion",
+    "Facility":"Nagdigu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Nahuyili",
+    "Facility":"Nahuyili CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Makayili",
+    "Facility":"Nakpa CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Nakpale",
+    "Facility":"Nakpale Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Tatale",
+    "Facility":"Nakpali Borele CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Napkpayili",
+    "Facility":"Nakpayili Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Sandua",
+    "Facility":"Nakundugu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Sandua",
+    "Facility":"Namang CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Diare",
+    "Facility":"Nambagla CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Gbangbanpong",
+    "Facility":"Nambiri CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Sakulo",
+    "Facility":"Namburugu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kumdi",
+    "Facility":"Nanjuro CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanton",
+    "Sub-district":"Nanton",
+    "Facility":"Nanton Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanton",
+    "Sub-district":"Nanton",
+    "Facility":"Nanton-Kurugu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Jimle",
+    "Facility":"Nanvili CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kitare",
+    "Facility":"Nassande CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Natagu",
+    "Facility":"Natagu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Pudua",
+    "Facility":"Natinga CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Gushiegu",
+    "Sub-district":"Katani",
+    "Facility":"Nawuhugu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanton",
+    "Sub-district":"Tampion",
+    "Facility":"Nayili Fong CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Yendi East",
+    "Facility":"Nayilifong CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Savelugu",
+    "Facility":"Nayilifong CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Bumbong",
+    "Facility":"Nkwanta Chps"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Gbungbaliga",
+    "Facility":"Nmonchani CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Sabare",
+    "Facility":"Nogmado CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Tamale Central",
+    "Facility":"Northern Regional Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Gupanerigu",
+    "Facility":"Nwodua CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Nyankpala",
+    "Facility":"Nyankpala Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Taha",
+    "Facility":"Nyanshegu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Nyohini",
+    "Facility":"Nyohini Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanton",
+    "Sub-district":"Tampion",
+    "Facility":"Nyolgu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Nyong",
+    "Facility":"Nyong Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Kukpaligu",
+    "Facility":"Ojoja CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Nyohini",
+    "Facility":"One Heart Medical Center"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Bumbong",
+    "Facility":"Oseido CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kpandai",
+    "Facility":"Oti River Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Diare",
+    "Facility":"Pigu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Pishigu",
+    "Facility":"Pishigu Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Pong Tamale",
+    "Facility":"Pong Tamale Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Sabonjida",
+    "Facility":"Presbyterian Health Centre, Loloto"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Pudua",
+    "Facility":"Pudua Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Bimbilla",
+    "Facility":"Pusugu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Taha",
+    "Facility":"RCC CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Yendi Central",
+    "Facility":"Rayon Clinic"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Chamba",
+    "Facility":"SOGON CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Tong",
+    "Facility":"SUNG CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Sabare",
+    "Facility":"Sabare CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Saboba",
+    "Facility":"Saboba Central CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Saboba",
+    "Facility":"Saboba East CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Saboba",
+    "Facility":"Saboba Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Chamba",
+    "Facility":"Sabonjida CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Sabonjida",
+    "Facility":"Sabonjida Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Sagnarigu",
+    "Facility":"Sagnarigu Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Napkpayili",
+    "Facility":"Sakpe Baduli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Sang",
+    "Facility":"Sakpe CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Sakulo",
+    "Facility":"Sakulo CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Makayili",
+    "Facility":"Salnaayili CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Sambu",
+    "Facility":"Sambu Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanton",
+    "Sub-district":"Nanton",
+    "Facility":"Sandu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Sang",
+    "Facility":"Sang Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Sangbaa",
+    "Facility":"Sangbaa CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Sanguli",
+    "Facility":"Sanguli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Gbangbanpong",
+    "Facility":"Sanguli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Savelugu",
+    "Facility":"Savelugu District Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Savelugu",
+    "Facility":"Savelugu Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Tamale Central",
+    "Facility":"Seventh Day Adventist Hospital, Tamale"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Kandin",
+    "Facility":"Sheini CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Sagnarigu",
+    "Facility":"Shishegu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Dalun",
+    "Facility":"Singa CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Saboba",
+    "Facility":"Sobiba CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Choggu",
+    "Facility":"Sognaayilli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Malshegu",
+    "Facility":"Sorogu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Makayili",
+    "Facility":"St. Elizabeth Catholic Clinic, Juasi"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Chamba",
+    "Facility":"St. Joseph\u2019s Catholic Clinic & Maternity Home, Chamba"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Choggu",
+    "Facility":"St. Lucy Catholic Hospital, Kpalensi"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Nakpale",
+    "Facility":"Subruni CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Nahuyili",
+    "Facility":"Subyn Clinic"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Bumbong",
+    "Facility":"Sunsong CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Chamba",
+    "Facility":"Taali CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kpandai",
+    "Facility":"Tadando CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Taha",
+    "Facility":"Taha CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Kpendua",
+    "Facility":"Tali CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Tamale Central",
+    "Facility":"Tamale Central Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Tamale Central",
+    "Facility":"Tamale NMTC Prestige Clinic"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Tamale Central",
+    "Facility":"Tamale Polyclinic"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Tamale Central",
+    "Facility":"Tamale Teaching Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Choggu",
+    "Facility":"Tamale Technical University Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Tamale Central",
+    "Facility":"Tamale West Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Nyong",
+    "Facility":"Tamalgu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanton",
+    "Sub-district":"Tampion",
+    "Facility":"Tampion Health Center"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Wulensi",
+    "Facility":"Tampoaya CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Kpabia",
+    "Facility":"Tanado CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Kamina",
+    "Facility":"Tania Specialist Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Sakulo",
+    "Facility":"Tanyeli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Moglaa",
+    "Facility":"Tarikpaa CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Tatale",
+    "Facility":"Tatale Catholic District Hospital, Tatale"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Tatale",
+    "Facility":"Tatale Health Center"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kumdi",
+    "Facility":"Tenglinto CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Sang",
+    "Facility":"Testimony Medical Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Dalun",
+    "Facility":"The Kings Medical Centre, Bontanga"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Voggu",
+    "Facility":"Tibung CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Jimle",
+    "Facility":"Tidjo CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Diare",
+    "Facility":"Tiglaa CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kpandai",
+    "Facility":"Tikarini CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Wulensi",
+    "Facility":"Tinageria CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Nyankpala",
+    "Facility":"Tingoli CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Kukpalgu",
+    "Facility":"Tinsung CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Nyohini",
+    "Facility":"Tizaa Royal Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Tolon",
+    "Facility":"Tolon District Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Tolon",
+    "Facility":"Tolon Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Tong",
+    "Facility":"Tong CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Vitting",
+    "Facility":"Tugu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Nyankpala",
+    "Facility":"Tuunaayili CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Nyankpala",
+    "Facility":"UDS Clinic"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Natagu",
+    "Facility":"Ugando CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Vitting",
+    "Facility":"Vitting Clinic"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Voggu",
+    "Facility":"Voggu Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Sambuli",
+    "Facility":"Wadiik CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kumdi",
+    "Facility":"Wajado CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Yendi West",
+    "Facility":"Waliyepala CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Wantugu",
+    "Facility":"Wantugu Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Wapuli",
+    "Facility":"Wapuli East CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Taha",
+    "Facility":"Ward K CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Sambu",
+    "Facility":"Warivi CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kitare",
+    "Facility":"Wasawasa CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Kasuliyili",
+    "Facility":"Wayamba CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kpandai",
+    "Sub-district":"Kumdi",
+    "Facility":"Wiae CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Nakpale",
+    "Facility":"Woribogu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Wulensi",
+    "Facility":"Wulensi Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tatale-Sangule",
+    "Sub-district":"Kparbutabo",
+    "Facility":"Yachado CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Bilpeila",
+    "Facility":"Yagyili CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Wapuli",
+    "Facility":"Yankazia CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba North",
+    "Sub-district":"Bimbilla",
+    "Facility":"Yapalsi CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Wulensi",
+    "Facility":"Yashfah Medical Services"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Komoayili",
+    "Facility":"Yemo CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Yendi East",
+    "Facility":"Yendi District Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Yendi Central",
+    "Facility":"Yendi Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Yendi East",
+    "Facility":"Yendi SHS Clinic"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Sandua",
+    "Facility":"Yibee CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Adibo",
+    "Facility":"Yimahegu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Kasuliyili",
+    "Facility":"Yoggu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Savelugu",
+    "Sub-district":"Savelugu",
+    "Facility":"Yong CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tamale",
+    "Sub-district":"Bilpeila",
+    "Facility":"Yong CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Yendi",
+    "Sub-district":"Ngani",
+    "Facility":"Zabang CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Zabzugu",
+    "Facility":"Zabsec Clinic"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Zabzugu",
+    "Facility":"Zabzugu District Hospital"
+  },
+  {
+    "Region":"Northern",
+    "District":"Zabzugu",
+    "Sub-district":"Zabzugu",
+    "Facility":"Zabzugu RCH Clinic"
+  },
+  {
+    "Region":"Northern",
+    "District":"Sagnarigu",
+    "Sub-district":"Kamina",
+    "Facility":"Zagyuri CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Mion",
+    "Sub-district":"Sang",
+    "Facility":"Zakpalsi CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Gushiegu",
+    "Sub-district":"Gushiegu",
+    "Facility":"Zamashegu CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Karaga",
+    "Sub-district":"Zandua",
+    "Facility":"Zandua CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Dalun",
+    "Facility":"Zangbalun CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Tolon",
+    "Sub-district":"Lingbunga",
+    "Facility":"Zantani CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanton",
+    "Sub-district":"Nanton",
+    "Facility":"Zieng CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Gushiegu",
+    "Sub-district":"Galwei",
+    "Facility":"Zinindo Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanton",
+    "Sub-district":"Tampion",
+    "Facility":"Zoggu Health Centre"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanton",
+    "Sub-district":"Tampion",
+    "Facility":"Zokuga CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Nanumba South",
+    "Sub-district":"Pudua",
+    "Facility":"Zonyoni CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Kumbungu",
+    "Sub-district":"Kumbungu",
+    "Facility":"Zugu Dagbon CHPS"
+  },
+  {
+    "Region":"Northern",
+    "District":"Saboba",
+    "Sub-district":"Sambuli",
+    "Facility":"kugnani CHPS"
+  }
+]

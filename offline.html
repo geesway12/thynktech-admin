@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ThynkTech - Offline</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="manifest" href="/manifest.json">
+  <style>
+    .offline-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      background: #eaf6fb;
+      padding: 20px;
+    }
+    .offline-icon {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      color: #666;
+    }
+    .offline-title {
+      color: #2196f3;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .offline-message {
+      color: #666;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      max-width: 500px;
+      margin-bottom: 2rem;
+    }
+    .offline-features {
+      background: white;
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      max-width: 400px;
+    }
+    .feature-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .feature-list li {
+      padding: 0.5rem 0;
+      color: #4caf50;
+    }
+    .feature-list li::before {
+      content: "✓ ";
+      color: #4caf50;
+      font-weight: bold;
+    }
+    .retry-button {
+      background: #2196f3;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    .retry-button:hover {
+      background: #1976d2;
+    }
+  </style>
+</head>
+<body>
+  <div class="offline-container">
+    <div class="offline-icon">📡</div>
+    <h1 class="offline-title">ThynkTech Healthcare</h1>
+    <div class="offline-message">
+      <p>You're currently offline, but don't worry!</p>
+      <p>Your healthcare data is safely stored locally and will sync when your connection is restored.</p>
+    </div>
+    
+    <div class="offline-features">
+      <h3 style="margin-top: 0; color: #2196f3;">Available Offline:</h3>
+      <ul class="feature-list">
+        <li>View existing patient records</li>
+        <li>Access previous visit logs</li>
+        <li>Review reports and data</li>
+        <li>Add new patient information</li>
+        <li>Record new visits</li>
+      </ul>
+    </div>
+    
+    <button class="retry-button" onclick="checkConnection()">
+      Check Connection
+    </button>
+    
+    <p style="color: #999; font-size: 0.9rem; margin-top: 2rem;">
+      Data will automatically sync when connection is restored
+    </p>
+  </div>
+
+  <script>
+    function checkConnection() {
+      if (navigator.onLine) {
+        window.location.href = '/';
+      } else {
+        alert('Still offline. Please check your internet connection.');
+      }
+    }
+    
+    // Auto-redirect when connection is restored
+    window.addEventListener('online', () => {
+      setTimeout(() => {
+        window.location.href = '/';
+      }, 1000);
+    });
+    
+    // Check connection status periodically
+    setInterval(() => {
+      if (navigator.onLine) {
+        checkConnection();
+      }
+    }, 5000);
+  </script>
+</body>
+</html>
