@@ -21,12 +21,12 @@ function router() {
   
   if (!db.currentUser) {
     window.location.hash = '#login';
-    renderLogin(app);
+    renderLogin(app, 'admin');
     return;
   }
   
   const hash = window.location.hash;
-  if (hash === '#login') renderLogin(app);
+  if (hash === '#login') renderLogin(app, 'admin');
   else if (hash === '#admin-dashboard' || hash === '') renderAdminDashboard(app);
   else if (hash === '#user-mgmt') renderUserManagement(app);
   else if (hash === '#patient-reg') renderPatientList(app);

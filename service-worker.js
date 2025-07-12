@@ -1,11 +1,11 @@
 /**
  * ThynkTech Enhanced Service Worker Template
  * Comprehensive offline support for healthcare data management
- * admin and 2025-07-12T18-13-10 will be replaced during deployment
+ * admin and 2025-07-12T18-31-59 will be replaced during deployment
  */
 
-const CACHE_NAME = "thynktech-admin-cache-v2025-07-12T18-13-10";
-const DATA_CACHE_NAME = "thynktech-admin-data-v2025-07-12T18-13-10";
+const CACHE_NAME = "thynktech-admin-cache-v2025-07-12T18-31-59";
+const DATA_CACHE_NAME = "thynktech-admin-data-v2025-07-12T18-31-59";
 
 // Core application assets
 const baseUrlsToCache = [
@@ -76,7 +76,7 @@ const urlsToCache = [
 
 // Install: Cache core assets and prepare offline infrastructure
 self.addEventListener("install", event => {
-  console.log(`[SW] Installing ThynkTech admin v2025-07-12T18-13-10`);
+  console.log(`[SW] Installing ThynkTech admin v2025-07-12T18-31-59`);
   self.skipWaiting();
   
   event.waitUntil(
@@ -101,7 +101,7 @@ self.addEventListener("install", event => {
 
 // Activate: Clean up old caches and claim clients
 self.addEventListener("activate", event => {
-  console.log(`[SW] Activating ThynkTech admin v2025-07-12T18-13-10`);
+  console.log(`[SW] Activating ThynkTech admin v2025-07-12T18-31-59`);
   
   event.waitUntil(
     caches.keys().then(keys => {
@@ -122,7 +122,7 @@ self.addEventListener("activate", event => {
       clients.forEach(client => {
         client.postMessage({ 
           type: 'CACHE_UPDATED',
-          version: '2025-07-12T18-13-10'
+          version: '2025-07-12T18-31-59'
         });
       });
     })
@@ -374,7 +374,7 @@ self.addEventListener('message', event => {
     case 'GET_CACHE_STATUS':
       event.ports[0].postMessage({
         cacheSize: urlsToCache.length,
-        version: '2025-07-12T18-13-10',
+        version: '2025-07-12T18-31-59',
         type: 'admin'
       });
       break;
@@ -389,5 +389,5 @@ self.addEventListener('message', event => {
   }
 });
 
-console.log(`[SW] 🏥 ThynkTech admin Service Worker v2025-07-12T18-13-10 ready`);
+console.log(`[SW] 🏥 ThynkTech admin Service Worker v2025-07-12T18-31-59 ready`);
 console.log(`[SW] 📊 Caching strategy: App Shell (${urlsToCache.length} files) + Healthcare Data`);
