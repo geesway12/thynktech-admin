@@ -1,24 +1,75 @@
 {
-  "name": "Thynktech",
-  "short_name": "Thynktech",
-  "description": "Thynktech - Offline health records & register app for rural clinics.",
+  "name": "TechThynk Admin",
+  "short_name": "TechThynk Admin",
+  "description": "TechThynk Admin - Offline health records & register app for rural clinics.",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#f5faff",
   "theme_color": "#00B686",
   "orientation": "portrait",
+  "categories": ["medical", "health", "productivity"],
   "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
     {
       "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
       "type": "image/png"
     }
   ],
   "scope": ".",
-  "lang": "en"
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "display_override": ["window-controls-overlay", "standalone"],
+  "edge_side_panel": {},
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "shortcuts": [
+    {
+      "name": "Patient Management",
+      "short_name": "Patients",
+      "description": "Manage patient records and information",
+      "url": "#patients",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Health Registers",
+      "short_name": "Registers",
+      "description": "Access health registers and forms",
+      "url": "#registers",
+      "icons": [
+        {
+          "src": "icon-192.png", 
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
 }
