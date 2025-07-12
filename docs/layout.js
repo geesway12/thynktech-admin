@@ -11,7 +11,7 @@ export function createAppHeader() {
         <div class="meta-facility">
           <img src="${getThemeAwareLogo()}" alt="Logo" class="theme-aware-logo">
           <div>
-            <div class="facility-name">${facility.name || 'TechThynk Health System'}</div>
+            <div class="facility-name">${facility.name || 'ThynkTech Health System'}</div>
             <div class="facility-location">${facility.description || facility.location || 'Professional Healthcare Management'}</div>
           </div>
         </div>
@@ -57,7 +57,7 @@ export function createAppFooter() {
       <div class="container">
         <div class="d-flex align-items-center justify-content-center mb-2">
           <img src="${getThemeAwareLogo()}" alt="Logo" class="theme-aware-logo me-2" style="height: 24px;">
-          <span class="text-muted">${facility.name || 'TechThynk Health System'}</span>
+          <span class="text-muted">${facility.name || 'ThynkTech Health System'}</span>
         </div>
         <span class="text-muted small">Contact: <a href="tel:+233269609634">+233269609634</a> | Website: <a href="https://geesway12.github.io/thynktech-site/" target="_blank">geesway12.github.io/thynktech-site/</a></span>
       </div>
@@ -313,7 +313,7 @@ export function createDashboardHeader(appType) {
     <div class="dashboard-header">
       <div class="welcome-section">
         <h1 class="dashboard-title">
-          ${healthIcons.health} Welcome to TechThynk ${isAdmin ? 'Admin' : 'User'} Portal
+          ${healthIcons.health} Welcome to ThynkTech ${isAdmin ? 'Admin' : 'User'} Portal
         </h1>
         <p class="dashboard-subtitle">
           ${facility.description || 'Professional Healthcare Management System'}
