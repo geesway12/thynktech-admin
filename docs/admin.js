@@ -8,6 +8,7 @@ import { renderPatientList } from './patients.js';
 import { renderVisitLog } from './visits.js';
 import { renderReports } from './reports.js';
 import { renderAppointmentList } from './appointments.js';
+import { wrapWithLayout, setupLogoutButton } from './layout.js';
 
 function isAdminPasswordExpired() {
   const admin = db.users.find(u => u.role?.toLowerCase() === "admin");
@@ -304,63 +305,6 @@ export function renderAdminDashboard(root) {
 
   const f = db.facility || {};
 
-  let adminUser = db.currentUser && db.currentUser.role?.toLowerCase() === 'admin' ? db.currentUser.username : '';
-  const meta = `
-    <div class="alert alert-info small mb-2 d-flex align-items-center">
-      <img src="${f.image || 'logo.png'}" height="36" class="me-2" style="border-radius:8px;">
-      <b>${f.name || ''}</b>
-      <span class="ms-2 text-muted">${f.region || ''} / ${f.district || ''} / ${f.community || ''}</span>
-      <div class="ms-auto d-flex align-items-center gap-2">
-        <div class="theme-picker">
-          <button class="btn btn-outline-secondary btn-sm" id="adminThemePickerBtn" title="Change Theme">
-            <i class="bi bi-palette me-1"></i><span class="d-none d-md-inline">Theme</span>
-          </button>
-          <div class="theme-dropdown" id="adminThemeDropdown">
-            <div class="theme-option" data-theme="blue">
-              <span class="theme-swatch" style="background: #1976d2;"></span>
-              Ocean Blue
-            </div>
-            <div class="theme-option" data-theme="green">
-              <span class="theme-swatch" style="background: #2e7d32;"></span>
-              Forest Green
-            </div>
-            <div class="theme-option" data-theme="purple">
-              <span class="theme-swatch" style="background: #7b1fa2;"></span>
-              Royal Purple
-            </div>
-            <div class="theme-option" data-theme="orange">
-              <span class="theme-swatch" style="background: #f57c00;"></span>
-              Warm Orange
-            </div>
-            <div class="theme-option" data-theme="teal">
-              <span class="theme-swatch" style="background: #00695c;"></span>
-              Deep Teal
-            </div>
-            <div class="theme-option" data-theme="gold">
-              <span class="theme-swatch" style="background: #ff8f00;"></span>
-              Golden Yellow
-            </div>
-            <div class="theme-option" data-theme="gray">
-              <span class="theme-swatch" style="background: #424242;"></span>
-              Neutral Gray
-            </div>
-            <div class="theme-option" data-theme="mint">
-              <span class="theme-swatch" style="background: #00796b;"></span>
-              Fresh Mint
-            </div>
-            <div class="theme-option" data-theme="coral">
-              <span class="theme-swatch" style="background: #d84315;"></span>
-              Coral Red
-            </div>
-            <div class="theme-option" data-theme="dark">
-              <span class="theme-swatch" style="background: #121212; border-color: #666;"></span>
-              Dark Mode
-            </div>
-          </div>
-        </div>
-        ${adminUser ? `<a href="#profile" id="adminProfileLink" class="text-decoration-none text-dark"><i class='bi bi-person-circle'></i> <b>${adminUser}</b></a>` : ''}
-      </div>
-    </div>`;
 
   setTimeout(() => {
     if (db.currentUser && db.currentUser.lastPasswordChange) {
@@ -446,7 +390,7 @@ export function renderAdminDashboard(root) {
     }
   }, 100);
 
-  root.innerHTML = `
+  const dashboardContent = `
   <style>
     @media (min-width: 768px) {
       .dashboard-row-equal {
@@ -472,7 +416,6 @@ export function renderAdminDashboard(root) {
     .apt-day-list { margin-bottom: 1.2em; }
   </style>
   <div class="container my-4">
-    ${db.facility ? meta : ""}
     <div class="row mt-4 g-3 dashboard-row-equal">
       <div class="col-12 col-md-6 d-flex">
         <div class="card shadow mb-4 flex-fill">
@@ -644,6 +587,10 @@ export function renderAdminDashboard(root) {
     
   </div>
   `;
+
+  root.innerHTML = wrapWithLayout(dashboardContent, 'dashboard', true, true);
+
+  setTimeout(setupLogoutButton, 100);
 
   const adminAptList = root.querySelector('#adminAptList');
   if (adminAptList) {

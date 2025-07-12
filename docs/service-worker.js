@@ -1,18 +1,18 @@
-const CACHE_NAME = "thynktech-cache-v4";
+const CACHE_NAME = "thynktech-cache-v5";
 const urlsToCache = [
   "/",
   "/index.html",
   "/offline.html",
-  "/styles.css",
+  "./styles.css",
   "/favicon.ico",
-  "/logo.png",
+  "/logo-light.png",
+  "/logo-dark.png",
   "/manifest.json",
 
   "/app.js",
   "/admin.js",
   "/pwa.js",
   "/registers.js",
-  "/styles.css",
 
   "./appointments.js",
   "./auth.js",
@@ -20,6 +20,7 @@ const urlsToCache = [
   "./db.js",
   "./export.js",
   "./helpers.js",
+  "./layout.js",
   "./patients.js",
   "./reports.js",
   "./services.js",
