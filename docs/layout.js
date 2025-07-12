@@ -12,7 +12,7 @@ export function createAppHeader() {
           <img src="${getThemeAwareLogo()}" alt="Logo" class="theme-aware-logo">
           <div>
             <div class="facility-name">${facility.name || 'TechThynk Health System'}</div>
-            <div class="facility-location">${facility.location || 'Professional Healthcare Management'}</div>
+            <div class="facility-location">${facility.description || facility.location || 'Professional Healthcare Management'}</div>
           </div>
         </div>
         <div class="meta-actions">
@@ -36,7 +36,7 @@ export function createAppHeader() {
               </div>
             </div>
           </div>
-          <div class="health-badge health-badge-info">
+          <div class="health-badge health-badge-info user-profile-badge" onclick="showUserProfile()" style="cursor: pointer;">
             <i class="bi bi-person health-icon"></i>
             ${currentUser?.username || 'User'}
           </div>
@@ -213,6 +213,81 @@ function handleLogout() {
   }, 100);
 }
 
+export function showUserProfile() {
+  const currentUser = db.currentUser;
+  if (!currentUser) return;
+  
+  const content = `
+    <div style="max-width: 500px;">
+      <h5><i class="bi bi-person-circle"></i> User Profile</h5>
+      <form id="userProfileForm">
+        <div class="mb-3">
+          <label class="form-label">Username</label>
+          <input type="text" class="form-control" name="username" value="${currentUser.username || ''}" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Full Name</label>
+          <input type="text" class="form-control" name="fullName" value="${currentUser.fullName || ''}" placeholder="Enter your full name">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input type="email" class="form-control" name="email" value="${currentUser.email || ''}" placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Contact Number</label>
+          <input type="tel" class="form-control" name="contact" value="${currentUser.contact || ''}" placeholder="Enter contact number">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Change Password</label>
+          <input type="password" class="form-control" name="newPassword" placeholder="Leave blank to keep current password">
+        </div>
+        <div class="d-flex justify-content-between">
+          <button type="submit" class="btn btn-primary">Update Profile</button>
+          <button type="button" class="btn btn-secondary" id="cancelProfile">Cancel</button>
+        </div>
+        <div id="profileMsg" class="mt-2 small"></div>
+      </form>
+    </div>`;
+
+  const closeModal = showModal(content);
+
+  document.getElementById("cancelProfile").onclick = closeModal;
+
+  document.getElementById("userProfileForm").onsubmit = function(e) {
+    e.preventDefault();
+    const formData = new FormData(this);
+
+    currentUser.username = formData.get('username');
+    currentUser.fullName = formData.get('fullName');
+    currentUser.email = formData.get('email');
+    currentUser.contact = formData.get('contact');
+    
+    if (formData.get('newPassword')) {
+      currentUser.password = formData.get('newPassword');
+    }
+
+    const userIndex = db.users.findIndex(u => u.id === currentUser.id);
+    if (userIndex !== -1) {
+      db.users[userIndex] = { ...db.users[userIndex], ...currentUser };
+    }
+    
+    saveDb();
+    
+    this.querySelector("#profileMsg").textContent = "Profile updated successfully!";
+    this.querySelector("#profileMsg").className = "text-success mt-2 small";
+
+    const userBadges = document.querySelectorAll('.user-profile-badge');
+    userBadges.forEach(badge => {
+      const textNode = badge.childNodes[badge.childNodes.length - 1];
+      if (textNode && textNode.nodeType === 3) {
+        textNode.textContent = currentUser.username;
+      }
+    });
+    
+    setTimeout(() => closeModal(), 1500);
+  };
+}
+
 export function createUnifiedDashboard(appType = 'admin') {
   return `
     <div class="unified-dashboard">
@@ -232,7 +307,7 @@ export function createDashboardHeader(appType) {
           ${healthIcons.health} Welcome to TechThynk ${isAdmin ? 'Admin' : 'User'} Portal
         </h1>
         <p class="dashboard-subtitle">
-          Professional Healthcare Management System
+          ${facility.description || 'Professional Healthcare Management System'}
         </p>
       </div>
       <div class="quick-actions">
@@ -850,4 +925,5 @@ if (typeof window !== 'undefined') {
   window.closeModal = closeModal;
   window.showSettingsTab = showSettingsTab;
   window.showNotification = showNotification;
+  window.showUserProfile = showUserProfile;
 }
