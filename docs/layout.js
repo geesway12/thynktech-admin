@@ -40,6 +40,10 @@ export function createAppHeader() {
             <i class="bi bi-person health-icon"></i>
             ${currentUser?.username || 'User'}
           </div>
+          <button class="btn btn-sm btn-outline-danger logout-btn ms-2" onclick="handleLogout()" aria-label="Logout">
+            <i class="bi bi-box-arrow-right"></i>
+            <span>Logout</span>
+          </button>
         </div>
       </div>
     </div>`;
@@ -47,10 +51,15 @@ export function createAppHeader() {
 
 export function createAppFooter() {
   const currentYear = new Date().getFullYear();
+  const facility = db.facility || {};
   return `
     <footer class="footer mt-auto py-3 bg-light text-center">
       <div class="container">
-        <span class="text-muted">Contact: <a href="tel:+233269609634">+233269609634</a> | Website: <a href="https://geesway12.github.io/thynktech-site/" target="_blank">geesway12.github.io/thynktech-site/</a></span>
+        <div class="d-flex align-items-center justify-content-center mb-2">
+          <img src="${getThemeAwareLogo()}" alt="Logo" class="theme-aware-logo me-2" style="height: 24px;">
+          <span class="text-muted">${facility.name || 'TechThynk Health System'}</span>
+        </div>
+        <span class="text-muted small">Contact: <a href="tel:+233269609634">+233269609634</a> | Website: <a href="https://geesway12.github.io/thynktech-site/" target="_blank">geesway12.github.io/thynktech-site/</a></span>
       </div>
     </footer>
   `;
@@ -926,4 +935,8 @@ if (typeof window !== 'undefined') {
   window.showSettingsTab = showSettingsTab;
   window.showNotification = showNotification;
   window.showUserProfile = showUserProfile;
+  window.toggleThemePicker = toggleThemePicker;
+  window.applyTheme = applyTheme;
+  window.hideThemeDropdown = hideThemeDropdown;
+  window.handleLogout = handleLogout;
 }
